@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 	p1 = get_choice(argv[1]);
 	p2 = get_choice(argv[2]);
 
-	if (p1 > 3 || p2 > 3)
+	if (p1 > 3 || p2 > 3 || p1 < 0 || p2 < 0)
 	{
 		fprintf(stderr, "Invalid choice.\n");
 		return 1;
