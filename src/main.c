@@ -22,6 +22,7 @@ int main(int argc, char **argv)
 
 	// Check which player won
 	game_result_t winner = get_winner(p1, p2);
+	
 	printf("Player 1: %s\n", argv[1]);
 	printf("Player 2: %s\n", argv[2]);
 	printf("------------------\n");
