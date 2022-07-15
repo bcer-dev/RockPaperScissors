@@ -26,11 +26,11 @@ choice_t get_choice(char *choice_str)
 {
 	if (strcmp(choice_str, "rock") == 0)
 		return ROCK;
-	
-    if (strcmp(choice_str, "paper") == 0)
+
+	if (strcmp(choice_str, "paper") == 0)
 		return PAPER;
 	
-    if (strcmp(choice_str, "scissors") == 0)
+	if (strcmp(choice_str, "scissors") == 0)
 		return SCISSORS;
 
 	fprintf(stderr, "Invalid choice: %s\n", choice_str);
