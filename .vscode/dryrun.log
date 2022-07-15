@@ -1,6 +1,10 @@
 make.exe --dry-run --keep-going --print-directory
 make.exe: Entering directory 'c:/Users/brayd/Documents/Coding/Projects/RockPaperScissors'
-gcc src/main.c -o bin\RockPaperScissors
  
+gcc src/main.c -c
+ 
+gcc src/rock_paper_scissors.c -c
+gcc main.o rock_paper_scissors.o -o bin/RockPaperScissors
+rm *.o
 make.exe: Leaving directory 'c:/Users/brayd/Documents/Coding/Projects/RockPaperScissors'
  
