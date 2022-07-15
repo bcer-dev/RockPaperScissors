@@ -36,3 +36,11 @@ Player 1 wins!
 $ ./RockPaperScissors dynamite scissors
 Invalid choice: dynamite
 ```
+
+```bsh
+$ ./RockPaperScissors rock rock
+Player 1: rock
+Player 2: rock
+------------------
+DRAW!
+```
